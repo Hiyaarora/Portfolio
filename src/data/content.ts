@@ -47,7 +47,7 @@ export const education = [
     school: "Sant Mohan Singh Public School",
     place: "Ambala, India",
     period: "2020 – 2021",
-    score: "95%",
+    score: "Percentage: 95%",
   },
 ];
 
@@ -105,12 +105,12 @@ export const experience = [
     period: "Sept 2025 - Present",
     current: true,
     achievements: [
-      "Engineered a configuration-driven automation framework (Playwright) that runs one suite across multiple client deployments, scaling to 500+ automated checks and removing per-client maintenance.",
-      "Replaced the manual release cycle with Jenkins-scheduled CI runs and supporting Python utilities, delivering a daily product health signal to engineering leadership without manual effort.",
-      "Own production issue investigation for a five-application platform, reproducing customer-reported failures, validating backend data with SQL, inspecting REST API responses and driving root-cause analysis with developers across 100+ defects per release.",
-      "Automated end-to-end flows for a native Flutter mobile app across authentication, dashboard and checkout journeys on real devices and emulators, eliminating failures caused by asynchronous UI timing.",
+      "Backend & API Workflows: Worked with Python, SQL, REST APIs, and application integrations across a multi-application platform, resolving 100+ production issues per release.",
+      "Automation & CI/CD: Engineered Python automation and Jenkins-scheduled CI workflows, raising automation coverage from 30% to 90% across client deployments with 500+ automated checks.",
+      "SCAI Agent Workflows: Evaluated AI agent workflows handling 1000+ daily voice interactions for FMCG clients including Coca-Cola, ITC, and P&G, focusing on accuracy and reliability.",
+      "RAG Infrastructure: Worked on RAG pipelines using embedding models and PGVector for context-aware, low-latency AI responses.",
     ],
-    tech: ["Python", "Playwright", "Jenkins", "SQL", "REST APIs", "Flutter"],
+    tech: ["Python", "SQL", "REST APIs", "Jenkins", "CI/CD", "RAG", "PGVector", "Embeddings"],
   },
   {
     role: "Research Intern",
@@ -119,9 +119,11 @@ export const experience = [
     period: "June 2024 - Aug 2024",
     current: false,
     achievements: [
-      "Researched automated vulnerability detection using fuzzing, evaluating tools that generate edge-case inputs at scale, and presented findings in technical reports.",
+      "AI/ML Research: Studied Artificial Neural Networks (ANNs) for multi-class image classification, implementing digit recognition on the MNIST dataset with preprocessing and normalization.",
+      "Deep Learning Research: Worked on Convolutional Neural Networks (CNNs) for image classification, studying convolution, pooling, batch-based training, and model evaluation.",
+      "Model Optimization: Analyzed overfitting and generalization using training/validation performance, exploring dropout and batch normalization.",
     ],
-    tech: ["Fuzzing", "Security Research", "Python"],
+    tech: ["Python", "ANNs", "CNNs", "TensorFlow", "Keras", "MNIST", "Model Evaluation"],
   },
 ];
 
