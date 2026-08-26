@@ -15,7 +15,6 @@ export const profile = {
   linkedin: "https://linkedin.com/in/hiya-arora-5a0918288",
   github: "https://github.com/Hiyaarora",
   resumeFile: "/Hiya_Arora_Resume.pdf",
-  resumeUpdated: "8/26/2026",
   availability: "Open to AI/ML and backend engineering roles",
 };
 

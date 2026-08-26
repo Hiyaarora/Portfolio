@@ -44,7 +44,7 @@ export function About() {
 
 /* ------------------------------ Resume ------------------------------- */
 export function Resume() {
-  const chips = ["Professional Experience", "Skills & Tools", "Technical Projects", `Updated ${profile.resumeUpdated}`];
+  const chips = ["Professional Experience", "Skills & Tools", "Technical Projects"];
   return (
     <Section id="resume" label="Resume" title="My Resume" intro="Complete professional overview.">
       <Reveal>
@@ -73,9 +73,7 @@ export function Resume() {
                 </svg>
                 Download PDF
               </a>
-              <span className="font-mono text-[11px] text-faint">
-                PDF Format · Updated Recently
-              </span>
+              <span className="font-mono text-[11px] text-faint">PDF Format</span>
             </div>
           </div>
         </div>
