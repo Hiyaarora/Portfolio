@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---- Sunny-derived warm dark palette. Change these, re-skin the whole site. ---- */
+  --color-bg:        #0d0d0d;
+  --color-surface:   #141312;
+  --color-surface-2: #191716;
+  --color-text:      #ece7df;
+  --color-muted:     #8b857c;
+  --color-faint:     #5c574f;
+  --color-accent:    #e4633f;
+  --color-accent-dim:#8a3b26;
+  --color-hairline:  #232120;
+
+  --font-sans: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--color-accent); color: #0d0d0d; }
+
+/* thin scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: #2a2725; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #3a3634; }
+
+/* ---- scroll reveal ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1);
+}
+.reveal.is-visible { opacity: 1; transform: none; }
+
+/* ---- typewriter caret ---- */
+@keyframes caret { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+.caret { animation: caret 1s step-end infinite; }
+
+/* ---- status dot ---- */
+@keyframes ping-soft {
+  0%   { transform: scale(1);   opacity: .55 }
+  70%  { transform: scale(2.4); opacity: 0 }
+  100% { transform: scale(2.4); opacity: 0 }
+}
+.dot-ping { animation: ping-soft 2s cubic-bezier(0,0,.2,1) infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .caret, .dot-ping, .animate-bounce { animation: none; }
+}
