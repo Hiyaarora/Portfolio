@@ -302,7 +302,7 @@ export const projects: Project[] = [
     ],
     tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "CSS", "HTML", "Git", "Vercel"],
     code: "https://github.com/Hiyaarora/Portfolio",
-    live: "https://portfolio-hiya12.vercel.app/",
+    live: "https://hiyaarora.vercel.app/",
   },
   {
     name: "AI Expense Tracker",

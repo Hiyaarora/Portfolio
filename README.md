@@ -4,7 +4,7 @@ Personal portfolio site. Single-page, dark, built from scratch.
 
 **Repo:** https://github.com/Hiyaarora/Portfolio
 
-**Live:** https://portfolio-hiya12.vercel.app/
+**Live:** https://hiyaarora.vercel.app/
 
 ## Stack
 
