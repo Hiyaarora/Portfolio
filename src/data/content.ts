@@ -284,6 +284,25 @@ export const projects: Project[] = [
     code: "https://github.com/Hiyaarora/Churn-Prediction-Model",
   },
   {
+    name: "Portfolio",
+    category: "Frontend",
+    year: "2026",
+    status: "Actively maintained",
+    hook: "This site — a single-page portfolio built from scratch, with no UI library.",
+    description:
+      "The site you are looking at. A single-page portfolio built with React, TypeScript, and Tailwind CSS v4, designed and written from scratch rather than assembled from a template or component library. All content lives in one typed data file, and the entire colour scheme is driven by CSS custom properties, so changing a single token re-skins the whole site.",
+    features: [
+      "Hand-built components with no UI kit or template",
+      "Design tokens in CSS custom properties, so one variable re-skins the site",
+      "All content centralised in a single typed data file, separate from the components",
+      "Scroll-reveal animations and a typewriter role rotation, both disabled under prefers-reduced-motion",
+      "Accessible project modals with focus handling, Escape to close, and scroll locking",
+      "Responsive from mobile to desktop, with a collapsible mobile navigation",
+    ],
+    tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "CSS", "HTML", "Git", "Vercel"],
+    code: "https://github.com/Hiyaarora/Portfolio",
+  },
+  {
     name: "AI Expense Tracker",
     category: "Full Stack",
     year: "2026",

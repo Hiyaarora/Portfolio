@@ -2,6 +2,8 @@
 
 Personal portfolio site. Single-page, dark, built from scratch.
 
+**Repo:** https://github.com/Hiyaarora/Portfolio
+
 **Live:** _not deployed yet_
 
 ## Stack
